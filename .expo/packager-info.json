@@ -1,8 +1,8 @@
 {
-  "expoServerPort": null,
-  "expoServerNgrokUrl": null,
-  "packagerNgrokUrl": null,
-  "ngrokPid": null,
-  "packagerPort": null,
-  "packagerPid": null
+  "expoServerPort": 19000,
+  "expoServerNgrokUrl": "https://pc-k7f.ryanpcmcquen.wordcat.exp.direct",
+  "packagerNgrokUrl": "https://packager.pc-k7f.ryanpcmcquen.wordcat.exp.direct",
+  "ngrokPid": 10583,
+  "packagerPort": 19001,
+  "packagerPid": 10545
 }

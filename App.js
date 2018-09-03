@@ -1,3 +1,4 @@
+// "slug": "expo.io/@ryanpcmcquen/wordcat",
 import React from 'react';
 import Expo from 'expo';
 import { Image } from 'react-native';
