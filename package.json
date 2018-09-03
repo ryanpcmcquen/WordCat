@@ -6,9 +6,21 @@
     "private": false,
     "main": "node_modules/expo/AppEntry.js",
     "dependencies": {
-        "expo": "^29.0.0",
-        "native-base": "2.8.0",
-        "react": "16.3.1",
+        "expo": "29.x.x",
+        "native-base": "2.x.x",
+        "react": "16.x.x",
         "react-native": "https://github.com/expo/react-native/archive/sdk-29.0.0.tar.gz"
+    },
+    "devDependencies": {
+        "babel-eslint": "^9.0.0",
+        "eslint": "^5.5.0",
+        "eslint-plugin-jsx-a11y": "^6.1.1",
+        "eslint-plugin-markdown": "^1.0.0-beta.6",
+        "eslint-plugin-react": "^7.11.1",
+        "prettier-eslint": "8.x.x",
+        "prettier-eslint-cli": "4.x.x"
+    },
+    "scripts": {
+        "prettier": "npx prettier-eslint --list-different --config ./prettier.config.js --eslint-config-path ./.eslintrc.json --write \"{,!(.git|*build|*dist|docs|node_modules|styleguid*)/**/}*.{css,js,json,jsx,less,md,sass,scss}\""
     }
 }

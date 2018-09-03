@@ -2,7 +2,8 @@
     "expo": {
         "name": "wordcat",
         "description": "A word of the day app with cattitude.",
-        "slug": "expo.io/@ryanpcmcquen/wordcat",
+        // "slug": "expo.io/@ryanpcmcquen/wordcat",
+        "slug": "snack-HJxtLH5vQ",
         "privacy": "public",
         "sdkVersion": "29.0.0",
         "version": "1.0.0",
