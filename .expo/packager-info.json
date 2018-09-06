@@ -1,8 +1,8 @@
 {
   "expoServerPort": 19000,
-  "expoServerNgrokUrl": "https://pc-k7f.ryanpcmcquen.wordcat.exp.direct",
-  "packagerNgrokUrl": "https://packager.pc-k7f.ryanpcmcquen.wordcat.exp.direct",
-  "ngrokPid": 10583,
+  "expoServerNgrokUrl": "https://56-4qg.ryanpcmcquen.wordcat.exp.direct",
+  "packagerNgrokUrl": "https://packager.56-4qg.ryanpcmcquen.wordcat.exp.direct",
+  "ngrokPid": 1675,
   "packagerPort": 19001,
-  "packagerPid": 10545
+  "packagerPid": 1636
 }
