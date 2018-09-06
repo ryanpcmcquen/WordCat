@@ -8,9 +8,9 @@
         "version": "1.1.0",
         "orientation": "portrait",
         "primaryColor": "#ffffff",
-        "icon": "assets/icons/WordCat_RGB.png",
+        "icon": "assets/icons/WordCat.jpg",
         "loading": {
-            "icon": "assets/icons/WordCat_RGB.png",
+            "icon": "assets/icons/WordCat.jpg",
             "hideExponentText": false
         },
         "packagerOpts": {
