@@ -12,11 +12,11 @@
         "react-native": "https://github.com/expo/react-native/archive/sdk-29.0.0.tar.gz"
     },
     "devDependencies": {
-        "babel-eslint": "^9.0.0",
-        "eslint": "^5.5.0",
-        "eslint-plugin-jsx-a11y": "^6.1.1",
-        "eslint-plugin-markdown": "^1.0.0-beta.6",
-        "eslint-plugin-react": "^7.11.1",
+        "babel-eslint": "9.x.x",
+        "eslint": "5.x.x",
+        "eslint-plugin-jsx-a11y": "6.x.x",
+        "eslint-plugin-markdown": "^1.0.0-beta.8",
+        "eslint-plugin-react": "7.x.x",
         "prettier-eslint": "8.x.x",
         "prettier-eslint-cli": "4.x.x"
     },
