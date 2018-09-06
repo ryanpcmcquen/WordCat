@@ -15,17 +15,20 @@ import {
     View
 } from 'native-base';
 
+const fetchCat = async (self) =>
+    await fetch('https://aws.random.cat/meow')
+        .then((response) => response.json())
+        .then((data) => self.setState({ image: data.file }));
+
+const fetchWord = async (self) =>
+    await fetch('https://wordcat-pjbjtzmzutlv.runkit.sh/')
+        .then((response) => response.json())
+        .then((data) => self.setState({ data: data, isLoading: false }));
+
 export default class DeckSwiperExample extends React.Component {
     state = { isLoading: true };
     componentDidMount() {
-        return fetch('https://aws.random.cat/meow')
-            .then((response) => response.json())
-            .then((data) => this.setState({ image: data.file }))
-            .then(() => {
-                return fetch('https://wordcat-pjbjtzmzutlv.runkit.sh/')
-                    .then((response) => response.json())
-                    .then((data) => this.setState({ data: data, isLoading: false }));
-            });
+        return Promise.all([fetchCat(this), fetchWord(this)]);
     }
     render() {
         return this.state.isLoading ? (
@@ -42,6 +45,8 @@ export default class DeckSwiperExample extends React.Component {
                 <View>
                     <DeckSwiper
                         dataSource={'null'}
+                        onSwipeRight={() => fetchCat(this)}
+                        onSwipeLeft={() => fetchCat(this)}
                         renderItem={() => (
                             <Card style={{ elevation: 3 }}>
                                 <CardItem>
@@ -54,7 +59,9 @@ export default class DeckSwiperExample extends React.Component {
                                     <Body>
                                         <Text>{this.state.data.word}</Text>
                                         <Text note>
-                                            {`${this.state.data.definitions[0].partOfSpeech}\n\n\n`}
+                                            {`${this.state.data.definitions[0].partOfSpeech}\n${
+                                                this.state.data.examples[0].text
+                                            }\n\n`}
                                             {this.state.data.definitions.map(
                                                 (definition, index) =>
                                                     `${index + 1}. ${definition.text}\n\n`
