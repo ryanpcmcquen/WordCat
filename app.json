@@ -17,6 +17,7 @@
             "assetExts": ["ttf", "mp4", "otf", "xml"]
         },
         "ios": {
+            "buildNumber": "2",
             "bundleIdentifier": "com.McQuen.WordCat",
             "supportsTablet": false
         },
