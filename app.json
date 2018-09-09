@@ -17,11 +17,12 @@
             "assetExts": ["ttf", "mp4", "otf", "xml"]
         },
         "ios": {
-            "supportsTablet": true,
-            "bundleIdentifier": "com.McQuen.WordCat"
+            "bundleIdentifier": "com.McQuen.WordCat",
+            "supportsTablet": false
         },
         "android": {
-            "package": "com.McQuen.WordCat"
+            "package": "com.McQuen.WordCat",
+            "versionCode": 2
         }
     }
 }
