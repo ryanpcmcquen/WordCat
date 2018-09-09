@@ -2,5 +2,3 @@ node_modules/
 package-lock.json
 yarn-*.*
 yarn.*
-fastlane/Preview.html
-fastlane/metadata/
