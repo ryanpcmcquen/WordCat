@@ -19,11 +19,11 @@ https://play.google.com/store/apps/details?id=com.McQuen.WordCat
 ## iOS:
 
 <img
-    src="https://raw.githubusercontent.com/ryanpcmcquen/WordCat/master/assets/images/WordCat_on_iOS_0.png"
+    src="https://raw.githubusercontent.com/ryanpcmcquen/WordCat/master/assets/images/WordCat_on_iOS_0.jpg"
     width="300"
     alt="Learning is good for you.">
 <img
-    src="https://raw.githubusercontent.com/ryanpcmcquen/WordCat/master/assets/images/WordCat_on_iOS_1.png"
+    src="https://raw.githubusercontent.com/ryanpcmcquen/WordCat/master/assets/images/WordCat_on_iOS_1.jpg"
     width="300"
     alt="And cheap with WordCat!">
 
