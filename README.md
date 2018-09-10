@@ -17,6 +17,7 @@ https://play.google.com/store/apps/details?id=com.McQuen.WordCat
     alt="A cat a day ...">
 
 ## iOS:
+https://itunes.apple.com/us/app/wordcat-feline-edition/id1435113312
 
 <img
     src="https://raw.githubusercontent.com/ryanpcmcquen/WordCat/master/assets/images/WordCat_on_iOS_0.jpg"
