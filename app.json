@@ -4,8 +4,8 @@
         "description": "A word of the day app with cattitude.",
         "slug": "snack-HJxtLH5vQ",
         "privacy": "public",
-        "sdkVersion": "29.0.0",
-        "version": "1.1.0",
+        "sdkVersion": "31.0.0",
+        "version": "1.1.1",
         "orientation": "portrait",
         "primaryColor": "#ffffff",
         "icon": "assets/icons/WordCat_RGB.png",
@@ -14,16 +14,22 @@
             "hideExponentText": false
         },
         "packagerOpts": {
-            "assetExts": ["ttf", "mp4", "otf", "xml"]
+            "assetExts": [
+                "ttf",
+                "mp4",
+                "otf",
+                "xml"
+            ]
         },
         "ios": {
-            "buildNumber": "2",
+            "buildNumber": "3",
             "bundleIdentifier": "com.McQuen.WordCat",
             "supportsTablet": false
         },
         "android": {
             "package": "com.McQuen.WordCat",
-            "versionCode": 2
+            "versionCode": 3,
+            "permissions": []
         }
     }
 }
